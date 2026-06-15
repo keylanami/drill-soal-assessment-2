@@ -1,3 +1,4 @@
+package SC02;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedList;
@@ -65,7 +66,7 @@ public class Topologic {
                 }
             }
         }
-        
+
         if (sorted.size() != adjList.size()) {
             return null;
         }
